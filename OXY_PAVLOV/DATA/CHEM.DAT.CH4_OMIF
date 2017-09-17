@@ -1,0 +1,27 @@
+1         SiO       O2        SiO2      O
+2         SiO       H2        SiOH      H
+3         SiO       OH        SiO2      H
+4         SiO       HO2       SiO2      H
+5         SiO       O         SiO2
+6         SiO       H         SiOH
+7         SiO       O3        SiO2      O2     
+8         H2        O         OH        H
+9         OH        O         O2        H
+10        OH        OH        H2O       O
+11        H         O         OH
+12        H         O2        OH        O
+13        O         HO2       OH        O2       
+14        O         H2O2      OH        HO2       
+15        OH        H2        H2O       H
+16        OH        HO2       H2O       O2
+17        OH        H2O2      H2O       HO2
+18        HO2       HO2       H2O2      O2
+19        OH        O3        HO2       O2
+20        HO2       O3        OH        O2        O2
+21        O         O2        O3
+22        H         O2        HO2
+23        H         O2        HO2
+24        H         H         H2
+25        H         OH        H2O
+26        MgO       SiO2      MgSiO3
+27        MgO       MgSiO3    Mg2SiO4

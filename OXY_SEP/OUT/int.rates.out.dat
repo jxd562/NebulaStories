@@ -1,0 +1,163 @@
+
+O                   PRODUCTION RXS             INT RX RATE    TP =  1.41E+12
+   1) SiO     + O2      = SiO2    + O             4.364E+04
+  10) OH      + OH      = H2O     + O             2.256E+06
+  12) H       + O2      = OH      + O             8.148E+06
+
+O                      LOSS RXS                INT RX RATE    TL =  1.41E+12
+   5) SiO     + O       = SiO2    +               1.808E+08
+   8) H2      + O       = OH      + H             9.468E+11
+   9) OH      + O       = O2      + H             8.192E+06
+  11) H       + O       = OH      +               4.661E+11
+  13) O       + HO2     = OH      + O2            1.372E+01
+  14) O       + H2O2    = OH      + HO2           8.406E-09
+  23) O       + O2      = O3      +               1.282E+02
+
+O2                  PRODUCTION RXS             INT RX RATE    TP =  8.19E+06
+   7) SiO     + O3      = SiO2    + O2            1.279E+02
+   9) OH      + O       = O2      + H             8.192E+06
+  13) O       + HO2     = OH      + O2            1.372E+01
+  16) OH      + HO2     = H2O     + O2            8.200E+00
+  18) HO2     + HO2     = H2O2    + O2            1.502E-07
+  19) OH      + O3      = HO2     + O2            2.888E-01
+  20) HO2     + O3      = OH      + O2       O2   1.670E-09
+
+O2                     LOSS RXS                INT RX RATE    TL =  8.19E+06
+   1) SiO     + O2      = SiO2    + O             4.364E+04
+  12) H       + O2      = OH      + O             8.148E+06
+  23) O       + O2      = O3      +               1.282E+02
+  24) H       + O2      = HO2     +               1.346E+02
+  25) H       + O2      = HO2     +               1.814E+02
+
+H                   PRODUCTION RXS             INT RX RATE    TP =  2.91E+14
+   2) SiO     + H2      = SiOH    + H             2.890E+14
+   3) SiO     + OH      = SiO2    + H             9.982E+10
+   8) H2      + O       = OH      + H             9.468E+11
+   9) OH      + O       = O2      + H             8.192E+06
+  15) OH      + H2      = H2O     + H             1.313E+12
+
+H                      LOSS RXS                INT RX RATE    TL =  2.91E+14
+   6) SiO     + H       = SiOH    +               1.060E+08
+  11) H       + O       = OH      +               4.661E+11
+  12) H       + O2      = OH      + O             8.148E+06
+  21) SiOH    + H       = SiO     + H2            2.890E+14
+  24) H       + O2      = HO2     +               1.346E+02
+  25) H       + O2      = HO2     +               1.814E+02
+  26) H       + H       = H2      +               9.466E+11
+  27) H       + OH      = H2O     +               5.041E+07
+
+OH                  PRODUCTION RXS             INT RX RATE    TP =  1.41E+12
+   4) SiO     + HO2     = SiO2    + OH            2.944E+02
+   8) H2      + O       = OH      + H             9.468E+11
+  11) H       + O       = OH      +               4.661E+11
+  12) H       + O2      = OH      + O             8.148E+06
+  13) O       + HO2     = OH      + O2            1.372E+01
+  14) O       + H2O2    = OH      + HO2           8.406E-09
+  20) HO2     + O3      = OH      + O2       O2   1.670E-09
+
+OH                     LOSS RXS                INT RX RATE    TL =  1.41E+12
+   3) SiO     + OH      = SiO2    + H             9.982E+10
+   9) OH      + O       = O2      + H             8.192E+06
+  10) OH      + OH      = H2O     + O             2.256E+06
+  15) OH      + H2      = H2O     + H             1.313E+12
+  16) OH      + HO2     = H2O     + O2            8.200E+00
+  17) OH      + H2O2    = H2O     + HO2           1.418E-07
+  19) OH      + O3      = HO2     + O2            2.888E-01
+  22) SiOH    + OH      = SiO     + H2O           2.722E+08
+  27) H       + OH      = H2O     +               5.041E+07
+
+H2O                 PRODUCTION RXS             INT RX RATE    TP =  1.31E+12
+  10) OH      + OH      = H2O     + O             2.256E+06
+  15) OH      + H2      = H2O     + H             1.313E+12
+  16) OH      + HO2     = H2O     + O2            8.200E+00
+  17) OH      + H2O2    = H2O     + HO2           1.418E-07
+  22) SiOH    + OH      = SiO     + H2O           2.722E+08
+  27) H       + OH      = H2O     +               5.041E+07
+
+H2O                    LOSS RXS                INT RX RATE    TL =  1.31E+12
+
+HO2                 PRODUCTION RXS             INT RX RATE    TP =  3.16E+02
+  14) O       + H2O2    = OH      + HO2           8.406E-09
+  17) OH      + H2O2    = H2O     + HO2           1.418E-07
+  19) OH      + O3      = HO2     + O2            2.888E-01
+  24) H       + O2      = HO2     +               1.346E+02
+  25) H       + O2      = HO2     +               1.814E+02
+
+HO2                    LOSS RXS                INT RX RATE    TL =  3.16E+02
+   4) SiO     + HO2     = SiO2    + OH            2.944E+02
+  13) O       + HO2     = OH      + O2            1.372E+01
+  16) OH      + HO2     = H2O     + O2            8.200E+00
+  18) HO2     + HO2     = H2O2    + O2            1.502E-07
+  20) HO2     + O3      = OH      + O2       O2   1.670E-09
+
+H2O2                PRODUCTION RXS             INT RX RATE    TP =  1.50E-07
+  18) HO2     + HO2     = H2O2    + O2            1.502E-07
+
+H2O2                   LOSS RXS                INT RX RATE    TL =  1.50E-07
+  14) O       + H2O2    = OH      + HO2           8.406E-09
+  17) OH      + H2O2    = H2O     + HO2           1.418E-07
+
+SiO                 PRODUCTION RXS             INT RX RATE    TP =  2.89E+14
+  21) SiOH    + H       = SiO     + H2            2.890E+14
+  22) SiOH    + OH      = SiO     + H2O           2.722E+08
+
+SiO                    LOSS RXS                INT RX RATE    TL =  2.89E+14
+   1) SiO     + O2      = SiO2    + O             4.364E+04
+   2) SiO     + H2      = SiOH    + H             2.890E+14
+   3) SiO     + OH      = SiO2    + H             9.982E+10
+   4) SiO     + HO2     = SiO2    + OH            2.944E+02
+   5) SiO     + O       = SiO2    +               1.808E+08
+   6) SiO     + H       = SiOH    +               1.060E+08
+   7) SiO     + O3      = SiO2    + O2            1.279E+02
+
+SiO2                PRODUCTION RXS             INT RX RATE    TP =  1.00E+11
+   1) SiO     + O2      = SiO2    + O             4.364E+04
+   3) SiO     + OH      = SiO2    + H             9.982E+10
+   4) SiO     + HO2     = SiO2    + OH            2.944E+02
+   5) SiO     + O       = SiO2    +               1.808E+08
+   7) SiO     + O3      = SiO2    + O2            1.279E+02
+
+SiO2                   LOSS RXS                INT RX RATE    TL =  1.00E+11
+  28) MgO     + SiO2    = MgSiO3  +               5.109E+10
+
+SiOH                PRODUCTION RXS             INT RX RATE    TP =  2.89E+14
+   2) SiO     + H2      = SiOH    + H             2.890E+14
+   6) SiO     + H       = SiOH    +               1.060E+08
+
+SiOH                   LOSS RXS                INT RX RATE    TL =  2.89E+14
+  21) SiOH    + H       = SiO     + H2            2.890E+14
+  22) SiOH    + OH      = SiO     + H2O           2.722E+08
+
+MgO                 PRODUCTION RXS             INT RX RATE    TP =  1.02E+11
+
+MgO                    LOSS RXS                INT RX RATE    TL =  1.02E+11
+  28) MgO     + SiO2    = MgSiO3  +               5.109E+10
+  29) MgO     + MgSiO3  = Mg2SiO4 +               5.091E+10
+
+MgSiO3              PRODUCTION RXS             INT RX RATE    TP =  5.11E+10
+  28) MgO     + SiO2    = MgSiO3  +               5.109E+10
+
+MgSiO3                 LOSS RXS                INT RX RATE    TL =  5.11E+10
+  29) MgO     + MgSiO3  = Mg2SiO4 +               5.091E+10
+
+Mg2SiO4             PRODUCTION RXS             INT RX RATE    TP =  5.09E+10
+  29) MgO     + MgSiO3  = Mg2SiO4 +               5.091E+10
+
+Mg2SiO4                LOSS RXS                INT RX RATE    TL =  5.09E+10
+
+O3                  PRODUCTION RXS             INT RX RATE    TP =  1.41E+12
+  23) O       + O2      = O3      +               1.282E+02
+
+O3                     LOSS RXS                INT RX RATE    TL =  6.31E+02
+   7) SiO     + O3      = SiO2    + O2            1.279E+02
+  19) OH      + O3      = HO2     + O2            2.888E-01
+  20) HO2     + O3      = OH      + O2       O2   1.670E-09
+
+H2                  PRODUCTION RXS             INT RX RATE    TP =  8.19E+06
+  21) SiOH    + H       = SiO     + H2            2.890E+14
+  26) H       + H       = H2      +               9.466E+11
+
+H2                     LOSS RXS                INT RX RATE    TL =  0.00E+00
+   2) SiO     + H2      = SiOH    + H             2.890E+14
+   8) H2      + O       = OH      + H             9.468E+11
+  15) OH      + H2      = H2O     + H             1.313E+12

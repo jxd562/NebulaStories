@@ -1,0 +1,53 @@
+1         SiQ       O2        SiOQ      O
+2         SiQ       O2        SiO2      Q
+3         SiO       OQ        SiOQ      O
+4         SiO       OQ        SiO2      Q
+5         SiQ       H2        SiQH      H
+6         SiQ       OH        SiOQ      H
+7         SiO       QH        SiOQ      H
+8         SiQ       HO2       SiOQ      H
+9         SiO       HOQ       SiOQ      H
+10        SiQ       O         SiOQ
+11        SiO       Q         SiOQ
+12        SiQ       H         SiQH
+13        SiQ       O3        SiOQ      O2
+14        SiQ       O3        SiO2      OQ
+15        SiO       O2Q       SiOQ      O2
+16        SiO       O2Q       SiO2      OQ
+17        H2        Q         QH        H
+18        QH        O         OQ        H
+19        OH        Q         OQ        H
+20        QH        OH        H2Q       O
+21        QH        OH        H2O       Q
+22        H         Q         QH
+23        H         OQ        QH        O
+24        H         OQ        OH        Q
+25        O         HO2       QH        O2
+26        O         HO2       OH        OQ
+27        O         HOQ       QH        O2 
+
+3         SiO       OQ        SiOQ      O
+4         SiO       HO2       SiO2      H
+5         SiO       O         SiO2
+6         SiO       H         SiOH
+7         SiO       O3        SiO2      O2     
+8         H2        O         OH        H
+9         OH        O         O2        H
+10        OH        OH        H2O       O
+11        H         O         OH
+12        H         O2        OH        O
+13        O         HO2       OH        O2       
+14        O         H2O2      OH        HO2       
+15        OH        H2        H2O       H
+16        OH        HO2       H2O       O2
+17        OH        H2O2      H2O       HO2
+18        HO2       HO2       H2O2      O2
+19        OH        O3        HO2       O2
+20        HO2       O3        OH        O2        O2
+21        O         O2        O3
+22        H         O2        HO2
+23        H         O2        HO2
+24        H         H         H2
+25        H         OH        H2O
+26        MgO       SiO2      MgSiO3
+27        MgO       MgSiO3    Mg2SiO4
