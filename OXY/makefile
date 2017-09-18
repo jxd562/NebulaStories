@@ -4,10 +4,12 @@
 # Setting definitions
 ########################
 #FC = /opt/intel/fce/9.0/bin/ifort
-FC = /usr/local/intel-2013.3/bin/ifort
+#FC = /usr/local/intel-2013.3/bin/ifort
+FC = /usr/local/bin/gfortran
 
 
 FCFLAG = -r8 -i8 -align all -i-static
+FCFLAG =
 OUTPUT = oxiclean
 PDOTO =  OXYGEN.o
 
