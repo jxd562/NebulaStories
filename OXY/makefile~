@@ -5,16 +5,16 @@
 ########################
 #FC = /opt/intel/fce/9.0/bin/ifort
 FC = /usr/local/intel-2013.3/bin/ifort
-
+#FC = /usr/local/bin/gfortran
 
 FCFLAG = -r8 -i8 -align all -i-static
-OUTPUT = oxiclean
+OUTPUT = oxygenstory2
 PDOTO =  OXYGEN.o
 
 # Main file
 PPHOT = oxygen
 
-OBPATH = $(PDOTO)/$(PPHOT).o
+#OBPATH = $(PDOTO)/$(PPHOT).o
 
 ################################
 # Loading compiled subroutines
