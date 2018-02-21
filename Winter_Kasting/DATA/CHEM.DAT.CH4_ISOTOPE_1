@@ -1,0 +1,66 @@
+1         SixO      O2        SiOxO     O
+2         SixO      O2        SiO2      xO
+3         SiO       OxO       SiOxO     O
+4         SiO       OxO       SiO2      xO
+5         SixO      H2        SixOH     H
+6         SixO      OH        SiOxO     H
+7         SiO       xOH       SiOxO     H
+8         SixO      HO2       SiOxO     OH
+9         SixO      HO2       SiO2      xOH
+10        SiO       HOxO      SiOxO     OH
+11        SiO       HOxO      SiO2      xOH
+12        SixO      O         SiOxO
+13        SiO       xO        SiOxO
+14        SixO      H         SixOH
+15        SixO      O3        SiOxO     O2
+16        SixO      O3        SiO2      OxO
+17        SiO       O2xO      SiOxO     O2
+18        SiO       O2xO      SiO2      OxO
+19        H2        xO        xOH       H
+20        xOH       O         OxO       H
+21        OH        xO        OxO       H
+22        xOH       OH        H2xO      O
+23        xOH       OH        H2O       xO
+24        H         xO        xOH
+25        H         OxO       xOH       O
+26        H         OxO       OH        xO
+27        xO        HO2       xOH       O2
+28        xO        HO2       OH        OxO
+29        O         HOxO      xOH       O2
+30        O         HOxO      OH        OxO
+31        xO        H2O2      xOH       HO2
+32        xO        H2O2      OH        HOxO
+33        O         H2OxO     xOH       HO2
+34        O         H2OxO     OH        HOxO
+35        xOH       H2        H2xO      H
+36        xOH       HO2       H2xO      O2
+37        xOH       HO2       H2O       OxO
+38        OH        HOxO      H2xO      O2
+39        OH        HOxO      H2O       OxO
+40        xOH       H2O2      H2xO      HO2
+41        xOH       H2O2      H2O       HOxO
+42        OH        H2OxO     H2xO      HO2
+43        OH        H2OxO     H2O       HOxO
+44        HOxO      HO2       H2OxO     O2
+45        HOxO      HO2       H2O2      OxO
+46        xOH       O3        HOxO      O2
+47        xOH       O3        HO2       OxO
+48        OH        O2xO      HOxO      O2
+49        OH        O2xO      HO2       OxO
+50        HOxO      O3        xOH       O2        O2
+51        HOxO      O3        OH        OxO       O2
+52        HO2       O2xO      OH        OxO       O2
+53        SixOH     H         SixO      H2
+54        SixOH     OH        SixO      H2O
+55        SixOH     OH        SiO       H2xO
+56        SiOH      xOH       SixO      H2O
+57        SiOH      xOH       SiO       H2xO
+58        xO        O2        O2xO
+59        O         OxO       O2xO
+60        H         OxO       HOxO
+61        H         OxO       HOxO
+62        H         xOH       H2xO
+63        MgxO      SiO2      MgSiO2xO
+64        MgO       SiOxO     MgSiO2xO
+65        MgxO      MgSiO3    Mg2SiO3xO
+66        MgO       MgSiO2xO  Mg2SiO3xO

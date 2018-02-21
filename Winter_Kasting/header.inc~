@@ -1,0 +1,20 @@
+C HEADER.INC FILE FOR OXYGEN CODE
+C
+C THE FOLLOWING LINES ARE FOR EDITS TO THE PARAMETERS FOR THE MODEL.
+C UNCOMMENT THE LINE YOU WISH TO USE FOR THE PARAMETERS.
+      PARAMETER (NQ=13, NR=29, NSP=15, NMAX=12)
+      PARAMETER (NQI=12, NSLS=13, NSPI=28, NRI=54, NMAXI=20)
+C
+C
+C     PARAMETER (NQ=12, NR=29, NSP=15, NMAX=12)
+C     PARAMETER (NQ=11, NR=29, NSP=15, NMAX=12)
+C     PARAMETER (NQ=12, NR=29, NSP=15, NMAX=12)
+C     
+C     NQ - number of long lived species
+C     NR - umber of reactions
+C     NSP - number of total chemical species
+C
+C     NQI - number of long lived isotopic species
+C     NSLS - number of long lived and short lived species
+C     NRI - number of reactions with isotopes
+C     NSPI - total number of all chemical speices
