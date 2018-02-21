@@ -1,0 +1,12 @@
+#Ignore all
+*
+# Unignore all with extensions
+!*.*
+# Unignore all dirs
+!*/
+#Unignore makefiles
+!makefile
+!Makefile
+### Above combination ignores all files without extensions ###
+
+*~
