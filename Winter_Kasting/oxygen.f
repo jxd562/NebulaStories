@@ -173,6 +173,7 @@ C ***** READ THE CHEMISTRY DATA CARDS *****
       READ(9,200)JCHEM
  200  FORMAT(10X,A8,2X,A8,2X,A8,2X,A8,2X,A8)
 C
+C     print *,JCHEM
 C     print 201,(J,(JCHEM(M,J),M=1,5),J=1,NR)
 C201  FORMAT(1X,I3,1H),5X,A8,4H +  ,A8,7H  =    ,A8,4H +  ,A8,4X,A8)
 C
@@ -180,6 +181,7 @@ C ***** REPLACE HOLLERITH LABELS WITH SPECIES NUMBERS IN JCHEM *****
       DO 5 J=1,NR
       DO 5 M=1,5
       IF(JCHEM(M,J).EQ.1H ) GO TO 5
+C     IF(JCHEM(M,J).EQ.1 ) GO TO 5
       DO 6 I=1,NSP
       IF(JCHEM(M,J).NE.ISPEC(I)) GO TO 6
       JCHEM(M,J) = I
@@ -189,6 +191,7 @@ C ***** REPLACE HOLLERITH LABELS WITH SPECIES NUMBERS IN JCHEM *****
       GO TO 25
    5  CONTINUE
 C
+C     print *,JCHEM
 C ***** Read character array for P&L tables for "int.rates.out.dat"
       REWIND 9
       READ(9,200)CHEM
@@ -215,24 +218,7 @@ C
       K = NUMP(I)
       IPROD(I,K) = J
    8  CONTINUE
-C
-C-AD ***** PRINT PROD/LOSS MATRICIES *****
-C     print *,'PROD'
-C     DO I=1,NSP
-C     print 689,I,(IPROD(I,K),K=1,NMAX)
-C689  FORMAT(1X,I3,3X,12(I2,1X))
-C     ENDDO
-C
-C     print *,'LOSS 1'
-C     DO I=1,NSP
-C     print 689,I,(ILOSS(1,I,K),K=1,NMAX)
-C     ENDDO
-C
-C     print *,'LOSS 2'
-C     DO I=1,NSP
-C     print 689,I,(ILOSS(2,I,K),K=1,NMAX)
-C     ENDDO
-C
+
 C ***** READ THE INPUT DATAFILE species+T_in.dat *****
       READ(7,500) USOL,T
  500  FORMAT(1P1E10.3)
